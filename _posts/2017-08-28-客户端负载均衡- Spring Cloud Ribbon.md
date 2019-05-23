@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "客户端负载均衡: Spring Cloud Ribbon" 
-img: spring-cloud.png
 date: 2017-08-28 23:34:00 +0800
 description: 对Spring Cloud Ribbon的研究
 tag: [Spring, Spring-Cloud, Java, Ribbon]
