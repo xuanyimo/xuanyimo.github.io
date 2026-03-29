@@ -14,7 +14,7 @@ categories: [AI]
 
 Claude 是由 [Anthropic](https://www.anthropic.com) 开发的大型语言模型（LLM）助手。与其他 AI 产品不同，Anthropic 从创立之初便将 AI 安全性作为核心研究方向，并将这一理念深度融入 Claude 的训练目标中。Claude 被设计为「有帮助、无害、诚实」（Helpful, Harmless, Honest）的 AI 助手，旨在成为用户可信赖的智能伙伴。
 
-<img src="{{ site.baseurl }}/assets/images/claude/anthropic-logo.png" alt="Anthropic Logo" style="width: 60%; margin: 20px auto; display: block;">
+<img src="https://claude.ai/images/claude_app_icon.png" alt="Claude App Icon" style="width: 120px; margin: 20px auto; display: block;">
 
 ## Claude 的发展历程
 
@@ -95,7 +95,7 @@ Claude 3 及以上版本支持图像输入，可以：
 - 识别截图中的文字和 UI 元素
 - 分析照片内容并回答问题
 
-<img src="{{ site.baseurl }}/assets/images/claude/claude-multimodal.png" alt="Claude 多模态示例" style="width: 80%; margin: 20px auto; display: block;">
+<img src="https://raw.githubusercontent.com/chihebnabil/claude-ui/main/public/ui.png" alt="Claude 对话界面截图" style="width: 85%; margin: 20px auto; display: block; border: 1px solid #eee; border-radius: 8px;">
 
 
 # Claude 的使用方式
@@ -199,7 +199,7 @@ claude
 
 这是目前 AI 辅助编程体验最接近「真实开发流程」的工具之一。
 
-<img src="{{ site.baseurl }}/assets/images/claude/claude-code-terminal.png" alt="Claude Code 终端界面" style="width: 85%; margin: 20px auto; display: block;">
+<img src="https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif" alt="Claude Code 终端演示" style="width: 85%; margin: 20px auto; display: block; border-radius: 8px;">
 
 ## 方式四：第三方集成
 
