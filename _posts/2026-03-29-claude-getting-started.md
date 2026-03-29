@@ -199,7 +199,7 @@ claude
 
 这是目前 AI 辅助编程体验最接近「真实开发流程」的工具之一。
 
-<img src="{{ site.baseurl }}/assets/images/claude/claude-code-terminal.png" alt="Claude Code 终端界面" style="width: 85%; margin: 20px auto; display: block;">
+<img src="https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif" alt="Claude Code 终端演示" style="width: 85%; margin: 20px auto; display: block; border-radius: 8px;">
 
 ## 方式四：第三方集成
 
