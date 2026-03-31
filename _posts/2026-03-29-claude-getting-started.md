@@ -3,9 +3,14 @@ layout: post
 title: "Claude 入门使用指南"
 date: 2026-03-29 10:00:00 +0800
 description: 全面介绍 Anthropic Claude 的核心能力、使用方式与最佳实践，帮助开发者和普通用户快速上手。
-tag: [Claude, AI, LLM, Anthropic]
+tag: [Claude, AI, LLM, Anthropic, 现代开发者工具箱]
 categories: [AI]
+series: 现代开发者工具箱
+series_index: 1
 ---
+
+> **「现代开发者工具箱」系列** — 第 1 篇 / 共 3 篇
+> [① Claude 入门](/blog/2026/03/29/claude-getting-started/) · [② Harness CI/CD](/blog/2026/03/29/harness-cicd-guide/) · [③ GitHub Actions 实战](/blog/2026/03/31/github-actions-guide/)
 
 * Kramdown table of contents
 {:toc .toc}
