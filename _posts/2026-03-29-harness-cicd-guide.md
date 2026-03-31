@@ -3,9 +3,14 @@ layout: post
 title: "Harness CI/CD 平台全面解析"
 date: 2026-03-29 14:00:00 +0800
 description: 深入讲解 Harness 持续集成与持续交付平台的核心概念、架构设计与实战配置，帮助团队构建现代化 DevOps 流水线。
-tag: [Harness, CI/CD, DevOps, Kubernetes]
+tag: [Harness, CI/CD, DevOps, Kubernetes, 现代开发者工具箱]
 categories: [DevOps]
+series: 现代开发者工具箱
+series_index: 2
 ---
+
+> **「现代开发者工具箱」系列** — 第 2 篇 / 共 3 篇
+> [① Claude 入门](/blog/2026/03/29/claude-getting-started/) · [② Harness CI/CD](/blog/2026/03/29/harness-cicd-guide/) · [③ GitHub Actions 实战](/blog/2026/03/31/github-actions-guide/)
 
 * Kramdown table of contents
 {:toc .toc}
