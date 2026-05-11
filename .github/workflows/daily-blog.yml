@@ -1,0 +1,41 @@
+name: 每日自动生成博客
+
+on:
+  schedule:
+    # 北京时间每天上午 9:00（UTC 01:00）
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    # 支持手动触发（用于测试）
+
+jobs:
+  generate:
+    name: 生成并提交博客文章
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Configure git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate posts and create PR
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_posts.py
